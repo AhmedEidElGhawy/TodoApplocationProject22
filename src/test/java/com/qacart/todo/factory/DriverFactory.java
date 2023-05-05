@@ -3,6 +3,7 @@ package com.qacart.todo.factory;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
@@ -16,8 +17,10 @@ public class DriverFactory {
         WebDriver driver;
         switch (browser) {
             case "CHROME" -> {
+                ChromeOptions option = new ChromeOptions();
+                option.addArguments("--remote-allow-origins=*");
                 WebDriverManager.chromedriver().setup();
-                driver = new ChromeDriver();
+                driver = new ChromeDriver(option);
             }
             case "FIREFOX" -> {
                 WebDriverManager.firefoxdriver().setup();
