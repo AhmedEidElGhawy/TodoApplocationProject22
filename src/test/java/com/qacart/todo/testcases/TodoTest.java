@@ -9,7 +9,7 @@ import io.qameta.allure.Story;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-@Feature("Todo Feature1")
+@Feature("Todo Feature")
 public class TodoTest extends BaseTest {
 
     @Story("add Todo")
