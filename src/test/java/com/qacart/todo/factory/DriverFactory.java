@@ -13,7 +13,7 @@ import java.time.Duration;
 public class DriverFactory {
 
     public WebDriver initializeDriver() {
-        String browser = System.getProperty("browser","CHROME");
+        String browser = System.getProperty("browser","FIREFOX");
         WebDriver driver;
         switch (browser) {
             case "CHROME" -> {

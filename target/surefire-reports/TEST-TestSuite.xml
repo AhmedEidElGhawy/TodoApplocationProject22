@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="9.002" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="10.287" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="20"/>
-    <property name="webdriver.chrome.driver" value="C:\Users\ahmedeid.elghawy\.cache\selenium\chromedriver\win64\115.0.5790.102\chromedriver.exe"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.class.path" value="C:\Users\ahmedeid.elghawy\TodoApplocationProject22\target\test-classes;C:\Users\ahmedeid.elghawy\TodoApplocationProject22\target\classes;C:\Users\ahmedeid.elghawy\.m2\repository\org\seleniumhq\selenium\selenium-java\4.6.0\selenium-java-4.6.0.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\seleniumhq\selenium\selenium-api\4.6.0\selenium-api-4.6.0.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.6.0\selenium-chrome-driver-4.6.0.jar;C:\Users\ahmedeid.elghawy\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\ahmedeid.elghawy\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\ahmedeid.elghawy\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\ahmedeid.elghawy\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\ahmedeid.elghawy\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\ahmedeid.elghawy\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\ahmedeid.elghawy\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\ahmedeid.elghawy\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\ahmedeid.elghawy\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.6.0\selenium-chromium-driver-4.6.0.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\seleniumhq\selenium\selenium-json\4.6.0\selenium-json-4.6.0.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v105\4.6.0\selenium-devtools-v105-4.6.0.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v106\4.6.0\selenium-devtools-v106-4.6.0.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v107\4.6.0\selenium-devtools-v107-4.6.0.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.6.0\selenium-devtools-v85-4.6.0.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.6.0\selenium-edge-driver-4.6.0.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.6.0\selenium-firefox-driver-4.6.0.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.6.0\selenium-ie-driver-4.6.0.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.6.0\selenium-remote-driver-4.6.0.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\netty\netty-buffer\4.1.84.Final\netty-buffer-4.1.84.Final.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\netty\netty-codec-http\4.1.84.Final\netty-codec-http-4.1.84.Final.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\netty\netty-codec\4.1.84.Final\netty-codec-4.1.84.Final.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\netty\netty-handler\4.1.84.Final\netty-handler-4.1.84.Final.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\netty\netty-common\4.1.84.Final\netty-common-4.1.84.Final.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.84.Final\netty-transport-classes-epoll-4.1.84.Final.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.84.Final\netty-transport-classes-kqueue-4.1.84.Final.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\netty\netty-transport-native-epoll\4.1.84.Final\netty-transport-native-epoll-4.1.84.Final.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.84.Final\netty-transport-native-kqueue-4.1.84.Final.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.84.Final\netty-transport-native-unix-common-4.1.84.Final.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\netty\netty-transport\4.1.84.Final\netty-transport-4.1.84.Final.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\netty\netty-resolver\4.1.84.Final\netty-resolver-4.1.84.Final.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\opentelemetry\opentelemetry-api\1.19.0\opentelemetry-api-1.19.0.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\opentelemetry\opentelemetry-context\1.19.0\opentelemetry-context-1.19.0.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.19.0\opentelemetry-exporter-logging-1.19.0.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.19.0\opentelemetry-sdk-metrics-1.19.0.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.19.0-alpha\opentelemetry-sdk-logs-1.19.0-alpha.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.19.0-alpha\opentelemetry-api-logs-1.19.0-alpha.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.19.0\opentelemetry-sdk-common-1.19.0.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.19.0\opentelemetry-sdk-extension-autoconfigure-spi-1.19.0.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.19.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.19.0-alpha.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\opentelemetry\opentelemetry-exporter-common\1.19.0\opentelemetry-exporter-common-1.19.0.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.19.0\opentelemetry-sdk-trace-1.19.0.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.19.0\opentelemetry-sdk-1.19.0.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.19.0-alpha\opentelemetry-semconv-1.19.0-alpha.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\ahmedeid.elghawy\.m2\repository\net\bytebuddy\byte-buddy\1.12.18\byte-buddy-1.12.18.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\ahmedeid.elghawy\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\ahmedeid.elghawy\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\seleniumhq\selenium\selenium-http\4.6.0\selenium-http-4.6.0.jar;C:\Users\ahmedeid.elghawy\.m2\repository\dev\failsafe\failsafe\3.3.0\failsafe-3.3.0.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.6.0\selenium-manager-4.6.0.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.6.0\selenium-safari-driver-4.6.0.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\seleniumhq\selenium\selenium-support\4.6.0\selenium-support-4.6.0.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\github\bonigarcia\webdrivermanager\5.4.1\webdrivermanager-5.4.1.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\slf4j\slf4j-api\2.0.7\slf4j-api-2.0.7.jar;C:\Users\ahmedeid.elghawy\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\ahmedeid.elghawy\.m2\repository\com\github\docker-java\docker-java\3.3.2\docker-java-3.3.2.jar;C:\Users\ahmedeid.elghawy\.m2\repository\com\github\docker-java\docker-java-core\3.3.2\docker-java-core-3.3.2.jar;C:\Users\ahmedeid.elghawy\.m2\repository\com\github\docker-java\docker-java-api\3.3.2\docker-java-api-3.3.2.jar;C:\Users\ahmedeid.elghawy\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\ahmedeid.elghawy\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\ahmedeid.elghawy\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\ahmedeid.elghawy\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\ahmedeid.elghawy\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.2\docker-java-transport-httpclient5-3.3.2.jar;C:\Users\ahmedeid.elghawy\.m2\repository\com\github\docker-java\docker-java-transport\3.3.2\docker-java-transport-3.3.2.jar;C:\Users\ahmedeid.elghawy\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\ahmedeid.elghawy\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\rest-assured\rest-assured\5.3.1\rest-assured-5.3.1.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\apache\groovy\groovy\4.0.11\groovy-4.0.11.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\apache\groovy\groovy-xml\4.0.11\groovy-xml-4.0.11.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\ahmedeid.elghawy\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ahmedeid.elghawy\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\rest-assured\json-path\5.3.1\json-path-5.3.1.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\apache\groovy\groovy-json\4.0.11\groovy-json-4.0.11.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\rest-assured\rest-assured-common\5.3.1\rest-assured-common-5.3.1.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\rest-assured\xml-path\5.3.1\xml-path-5.3.1.jar;C:\Users\ahmedeid.elghawy\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\ahmedeid.elghawy\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\ahmedeid.elghawy\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\qameta\allure\allure-testng\2.23.0\allure-testng-2.23.0.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\qameta\allure\allure-java-commons\2.23.0\allure-java-commons-2.23.0.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\qameta\allure\allure-model\2.23.0\allure-model-2.23.0.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\qameta\allure\allure-test-filter\2.23.0\allure-test-filter-2.23.0.jar;"/>
@@ -16,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="DE"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-20.0.2\bin"/>
-    <property name="sun.java.command" value="C:\Users\ahmedeid.elghawy\AppData\Local\Temp\surefire10054798151648272126\surefirebooter-20230730153717019_3.jar C:\Users\ahmedeid.elghawy\AppData\Local\Temp\surefire10054798151648272126 2023-07-30T15-37-15_998-jvmRun1 surefire-20230730153717019_1tmp surefire_0-20230730153717019_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\ahmedeid.elghawy\AppData\Local\Temp\surefire4296074399702154235\surefirebooter-20231012181211357_3.jar C:\Users\ahmedeid.elghawy\AppData\Local\Temp\surefire4296074399702154235 2023-10-12T18-12-11_203-jvmRun1 surefire-20231012181211357_1tmp surefire_0-20231012181211357_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\ahmedeid.elghawy\TodoApplocationProject22\target\test-classes;C:\Users\ahmedeid.elghawy\TodoApplocationProject22\target\classes;C:\Users\ahmedeid.elghawy\.m2\repository\org\seleniumhq\selenium\selenium-java\4.6.0\selenium-java-4.6.0.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\seleniumhq\selenium\selenium-api\4.6.0\selenium-api-4.6.0.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.6.0\selenium-chrome-driver-4.6.0.jar;C:\Users\ahmedeid.elghawy\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\ahmedeid.elghawy\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\ahmedeid.elghawy\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\ahmedeid.elghawy\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\ahmedeid.elghawy\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\ahmedeid.elghawy\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\ahmedeid.elghawy\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\ahmedeid.elghawy\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\ahmedeid.elghawy\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.6.0\selenium-chromium-driver-4.6.0.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\seleniumhq\selenium\selenium-json\4.6.0\selenium-json-4.6.0.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v105\4.6.0\selenium-devtools-v105-4.6.0.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v106\4.6.0\selenium-devtools-v106-4.6.0.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v107\4.6.0\selenium-devtools-v107-4.6.0.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.6.0\selenium-devtools-v85-4.6.0.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.6.0\selenium-edge-driver-4.6.0.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.6.0\selenium-firefox-driver-4.6.0.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.6.0\selenium-ie-driver-4.6.0.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.6.0\selenium-remote-driver-4.6.0.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\netty\netty-buffer\4.1.84.Final\netty-buffer-4.1.84.Final.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\netty\netty-codec-http\4.1.84.Final\netty-codec-http-4.1.84.Final.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\netty\netty-codec\4.1.84.Final\netty-codec-4.1.84.Final.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\netty\netty-handler\4.1.84.Final\netty-handler-4.1.84.Final.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\netty\netty-common\4.1.84.Final\netty-common-4.1.84.Final.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.84.Final\netty-transport-classes-epoll-4.1.84.Final.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.84.Final\netty-transport-classes-kqueue-4.1.84.Final.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\netty\netty-transport-native-epoll\4.1.84.Final\netty-transport-native-epoll-4.1.84.Final.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.84.Final\netty-transport-native-kqueue-4.1.84.Final.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.84.Final\netty-transport-native-unix-common-4.1.84.Final.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\netty\netty-transport\4.1.84.Final\netty-transport-4.1.84.Final.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\netty\netty-resolver\4.1.84.Final\netty-resolver-4.1.84.Final.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\opentelemetry\opentelemetry-api\1.19.0\opentelemetry-api-1.19.0.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\opentelemetry\opentelemetry-context\1.19.0\opentelemetry-context-1.19.0.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.19.0\opentelemetry-exporter-logging-1.19.0.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.19.0\opentelemetry-sdk-metrics-1.19.0.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.19.0-alpha\opentelemetry-sdk-logs-1.19.0-alpha.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.19.0-alpha\opentelemetry-api-logs-1.19.0-alpha.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.19.0\opentelemetry-sdk-common-1.19.0.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.19.0\opentelemetry-sdk-extension-autoconfigure-spi-1.19.0.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.19.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.19.0-alpha.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\opentelemetry\opentelemetry-exporter-common\1.19.0\opentelemetry-exporter-common-1.19.0.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.19.0\opentelemetry-sdk-trace-1.19.0.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.19.0\opentelemetry-sdk-1.19.0.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.19.0-alpha\opentelemetry-semconv-1.19.0-alpha.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\ahmedeid.elghawy\.m2\repository\net\bytebuddy\byte-buddy\1.12.18\byte-buddy-1.12.18.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\ahmedeid.elghawy\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\ahmedeid.elghawy\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\seleniumhq\selenium\selenium-http\4.6.0\selenium-http-4.6.0.jar;C:\Users\ahmedeid.elghawy\.m2\repository\dev\failsafe\failsafe\3.3.0\failsafe-3.3.0.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.6.0\selenium-manager-4.6.0.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.6.0\selenium-safari-driver-4.6.0.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\seleniumhq\selenium\selenium-support\4.6.0\selenium-support-4.6.0.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\github\bonigarcia\webdrivermanager\5.4.1\webdrivermanager-5.4.1.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\slf4j\slf4j-api\2.0.7\slf4j-api-2.0.7.jar;C:\Users\ahmedeid.elghawy\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\ahmedeid.elghawy\.m2\repository\com\github\docker-java\docker-java\3.3.2\docker-java-3.3.2.jar;C:\Users\ahmedeid.elghawy\.m2\repository\com\github\docker-java\docker-java-core\3.3.2\docker-java-core-3.3.2.jar;C:\Users\ahmedeid.elghawy\.m2\repository\com\github\docker-java\docker-java-api\3.3.2\docker-java-api-3.3.2.jar;C:\Users\ahmedeid.elghawy\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\ahmedeid.elghawy\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\ahmedeid.elghawy\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\ahmedeid.elghawy\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\ahmedeid.elghawy\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.2\docker-java-transport-httpclient5-3.3.2.jar;C:\Users\ahmedeid.elghawy\.m2\repository\com\github\docker-java\docker-java-transport\3.3.2\docker-java-transport-3.3.2.jar;C:\Users\ahmedeid.elghawy\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\ahmedeid.elghawy\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\rest-assured\rest-assured\5.3.1\rest-assured-5.3.1.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\apache\groovy\groovy\4.0.11\groovy-4.0.11.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\apache\groovy\groovy-xml\4.0.11\groovy-xml-4.0.11.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\ahmedeid.elghawy\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ahmedeid.elghawy\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\rest-assured\json-path\5.3.1\json-path-5.3.1.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\apache\groovy\groovy-json\4.0.11\groovy-json-4.0.11.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\rest-assured\rest-assured-common\5.3.1\rest-assured-common-5.3.1.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\rest-assured\xml-path\5.3.1\xml-path-5.3.1.jar;C:\Users\ahmedeid.elghawy\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\ahmedeid.elghawy\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\ahmedeid.elghawy\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\ahmedeid.elghawy\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\qameta\allure\allure-testng\2.23.0\allure-testng-2.23.0.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\qameta\allure\allure-java-commons\2.23.0\allure-java-commons-2.23.0.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\qameta\allure\allure-model\2.23.0\allure-model-2.23.0.jar;C:\Users\ahmedeid.elghawy\.m2\repository\io\qameta\allure\allure-test-filter\2.23.0\allure-test-filter-2.23.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\ahmedeid.elghawy\AppData\Local\Temp\surefire10054798151648272126\surefirebooter-20230730153717019_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\ahmedeid.elghawy\AppData\Local\Temp\surefire4296074399702154235\surefirebooter-20231012181211357_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="20.0.2+9-78"/>
@@ -48,10 +47,11 @@
     <property name="java.version" value="20.0.2"/>
     <property name="user.dir" value="C:\Users\ahmedeid.elghawy\TodoApplocationProject22"/>
     <property name="os.arch" value="amd64"/>
+    <property name="webdriver.gecko.driver" value="C:\Users\ahmedeid.elghawy\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-20.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Program Files (x86)\Common Files\Pulse Secure\TNC Client Plugin\;C:\Program Files\dotnet\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Maven\apache-maven-3.9.3\bin;C:\Program Files\Java\jre-1.8\bin;C:\Program Files\Java\jre-1.8\lib;C:\Program Files\Java\jdk-20.0.2\bin;C:\Program Files\Java\jdk-20.0.2\bin;C:\Program Files\Git\cmd;C:\Users\ahmedeid.elghawy\Downloads\Allure\allure-2.23.1\bin;C:\Users\ahmedeid.elghawy\scoop\shims;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-20.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Program Files (x86)\Common Files\Pulse Secure\TNC Client Plugin\;C:\Program Files\dotnet\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Maven\apache-maven-3.9.3\bin;C:\Program Files\Java\jre-1.8\bin;C:\Program Files\Java\jre-1.8\lib;C:\Program Files\Java\jdk-20.0.2\bin;C:\Program Files\Java\jdk-20.0.2\bin;C:\Users\ahmedeid.elghawy\Downloads\Allure\allure-2.23.1\bin;C:\Program Files\Maven\apache-maven-3.9.3\bin;C:\Program Files\Git\cmd;C:\Users\ahmedeid.elghawy\scoop\shims;;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="stderr.encoding" value="Cp1252"/>
     <property name="java.vendor" value="Oracle Corporation"/>
@@ -59,7 +59,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="64.0"/>
   </properties>
-  <testcase name="shouldBeAbleToLoginWithEmailAndPassword" classname="com.qacart.todo.testcases.LoginTest" time="1.902">
+  <testcase name="shouldBeAbleToLoginWithEmailAndPassword" classname="com.qacart.todo.testcases.LoginTest" time="1.846">
     <system-out><![CDATA[Request method:	POST
 Request URI:	https://todo.qacart.com/api/v1/users/register
 Proxy:			<none>
@@ -73,10 +73,10 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "email": "hans.mccullough@gmail.com",
-    "password": "hr18hger",
-    "firstName": "Iluminada",
-    "lastName": "Morissette"
+    "email": "gino.quigley@hotmail.com",
+    "password": "ypyl2s97pp",
+    "firstName": "Hans",
+    "lastName": "Dibbert"
 }
 Request method:	POST
 Request URI:	https://todo.qacart.com/api/v1/users/register
@@ -91,79 +91,96 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "email": "stefanie.fadel@hotmail.com",
-    "password": "whnantht",
-    "firstName": "Christa",
-    "lastName": "Wolf"
+    "email": "gerry.leannon@hotmail.com",
+    "password": "rfcfg0wd6xisx",
+    "firstName": "Donny",
+    "lastName": "Osinski"
 }
 ]]></system-out>
     <system-err><![CDATA[SLF4J: No SLF4J providers were found.
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
-Starting ChromeDriver 115.0.5790.102 (90efd4b0ad6aa15eeafcdabd5817ae939f7ba059-refs/branch-heads/5790_90@{#9}) on port 8644
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChrSomeDritavrer tsafe.i
-ng ChromeDriver 115.0.5790.102 (90efd4b0ad6aa15eeafcdabd5817ae939f7ba059-refs/branch-heads/5790_90@{#9}) on port 9979
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-ChromeDriver was started successfully.
-Starting ChromeDriver 115.0.5790.102 (90efd4b0ad6aa15eeafcdabd5817ae939f7ba059-refs/branch-heads/5790_90@{#9}) on port 12925
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Juli 30, 2023 3:37:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNUNG: Unable to find CDP implementation matching 115
-Juli 30, 2023 3:37:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNUNG: Unable to find CDP implementation matching 115
-Juli 30, 2023 3:37:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNUNG: Unable to find CDP implementation matching 115
-Juli 30, 2023 3:37:20 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
-WARNUNG: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.6.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-Juli 30, 2023 3:37:20 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
-WARNUNG: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.6.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-Juli 30, 2023 3:37:20 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
-WARNUNG: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.6.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+1697127133682	geckodriver	INFO	Listening on 127.0.0.1:34733
+1697127133687	geckodriver	INFO	Listening on 127.0.0.1:2058
+1697127133693	geckodriver	INFO	Listening on 127.0.0.1:26735
+1697127134003	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "40387" "--remote ... st:40387/,http://[::1]:40387/" "-no-remote" "-profile" "C:\\Users\\AHMEDE~1.ELG\\AppData\\Local\\Temp\\rust_mozprofile3a7lPo"
+1697127134005	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "30803" "--remote ... st:30803/,http://[::1]:30803/" "-no-remote" "-profile" "C:\\Users\\AHMEDE~1.ELG\\AppDa1ta6\\L9ocal7\\T1e2mp\7\ru1st3_mo4zpr0ofi0letP6eI2	D"
+mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "11221" "--remote ... st:11221/,http://[::1]:11221/" "-no-remote" "-profile" "C:\\Users\\AHMEDE~1.ELG\\AppData\\Local\\Temp\\rust_mozprofilemS5k8k"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697127134354	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697127134395	Marionette	1IN6F9O7	1M2a7r1i3o4n3e9tte enabled
+5	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+Dynamically enable window occlusion 0
+1697127134445	Marionette	INFO	Listening on port 58828
+Read port: 58828
+WebDriver BiDi listening on ws://127.0.0.1:11221
+1697127134491	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1697127134550	Marionette	INFO	Listening on port 58830
+1697127134552	Marionette	INFO	Listening on port 58829
+WebDriver BiDi listening on ws://127.0.0.1:30803
+WebDriver BiDi listening on ws://127.0.0.1:40387
+RReade apodr tp:o 5r8t8:30 
+58829
+1697127134673	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1697127134678	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:11221/devtools/browser/06dd02a4-3738-447e-9102-1e9fa80a40b8
+DevTools listening on ws://127.0.0.1:40387/devtools/browser/964c003c-5dcd-4740-8d62-9c6634162780
+DevTools listening on ws://127.0.0.1:30803/devtools/browser/88b3e527-6998-4798-bbb9-b5b2230a8647
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://todo.qacart.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://todo.qacart.com."
 ]]></system-err>
   </testcase>
-  <testcase name="shouldBeAbleToAddNewTodo" classname="com.qacart.todo.testcases.TodoTest" time="5.077">
+  <testcase name="shouldBeAbleToAddNewTodo" classname="com.qacart.todo.testcases.TodoTest" time="4.624">
     <system-out><![CDATA[HTTP/1.1 201 Created
 Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1697127138&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&s=wWYjA3gih4BGp2t8bHgxSHp3sAOYUeYUCyj0qAbBXOs%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1697127138&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&s=wWYjA3gih4BGp2t8bHgxSHp3sAOYUeYUCyj0qAbBXOs%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
 X-Powered-By: Express
 Access-Control-Allow-Origin: *
-Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0YzY2NzkzN2Y2YWFjMDAxNGQ5MWQ0NiIsImZpcnN0TmFtZSI6IkNocmlzdGEiLCJsYXN0TmFtZSI6IldvbGYiLCJpYXQiOjE2OTA3MjQyNDN9.MdrExjn-KB9NybWepId7gleCc_JbNUWRgTBEXmXT2PU; Path=/
-Set-Cookie: userID=j%3A%2264c667937f6aac0014d91d46%22; Path=/
-Set-Cookie: firstName=Christa; Path=/
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1MjgxYWUyZDUzMzEzMDAxNDdhNTBlYSIsImZpcnN0TmFtZSI6IkhhbnMiLCJsYXN0TmFtZSI6IkRpYmJlcnQiLCJpYXQiOjE2OTcxMjcxMzh9.pYYT3qoGHaNSLioNCPXltEc2vmGGsDdgBHVgf1xDOB0; Path=/
+Set-Cookie: userID=j%3A%2265281ae2d5331300147a50ea%22; Path=/
+Set-Cookie: firstName=Hans; Path=/
 Content-Type: application/json; charset=utf-8
-Content-Length: 278
-Etag: W/"116-Ik+mr1NSHifMhkjJ+5RBlRkzNz8"
-Date: Sun, 30 Jul 2023 13:37:23 GMT
+Content-Length: 275
+Etag: W/"113-HV9FcHHZJJ48zSaybJCh8OwdQVk"
+Date: Thu, 12 Oct 2023 16:12:18 GMT
 Via: 1.1 vegur
 
 {
-    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0YzY2NzkzN2Y2YWFjMDAxNGQ5MWQ0NiIsImZpcnN0TmFtZSI6IkNocmlzdGEiLCJsYXN0TmFtZSI6IldvbGYiLCJpYXQiOjE2OTA3MjQyNDN9.MdrExjn-KB9NybWepId7gleCc_JbNUWRgTBEXmXT2PU",
-    "userID": "64c667937f6aac0014d91d46",
-    "firstName": "Christa"
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1MjgxYWUyZDUzMzEzMDAxNDdhNTBlYSIsImZpcnN0TmFtZSI6IkhhbnMiLCJsYXN0TmFtZSI6IkRpYmJlcnQiLCJpYXQiOjE2OTcxMjcxMzh9.pYYT3qoGHaNSLioNCPXltEc2vmGGsDdgBHVgf1xDOB0",
+    "userID": "65281ae2d5331300147a50ea",
+    "firstName": "Hans"
 }
 HTTP/1.1 201 Created
 Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1697127138&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&s=wWYjA3gih4BGp2t8bHgxSHp3sAOYUeYUCyj0qAbBXOs%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1697127138&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&s=wWYjA3gih4BGp2t8bHgxSHp3sAOYUeYUCyj0qAbBXOs%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
 X-Powered-By: Express
 Access-Control-Allow-Origin: *
-Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0YzY2NzkzN2Y2YWFjMDAxNGQ5MWQ0NCIsImZpcnN0TmFtZSI6IklsdW1pbmFkYSIsImxhc3ROYW1lIjoiTW9yaXNzZXR0ZSIsImlhdCI6MTY5MDcyNDI0M30.25XBN07GUdpDklFnWpn06zSb4i3Pbp_FICeXMldbuP4; Path=/
-Set-Cookie: userID=j%3A%2264c667937f6aac0014d91d44%22; Path=/
-Set-Cookie: firstName=Iluminada; Path=/
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1MjgxYWUyZDUzMzEzMDAxNDdhNTBlOCIsImZpcnN0TmFtZSI6IkRvbm55IiwibGFzdE5hbWUiOiJPc2luc2tpIiwiaWF0IjoxNjk3MTI3MTM4fQ.5CyAeiLipSTt7eTggpsncCIbL6FCDd6TddUFwrBXyBM; Path=/
+Set-Cookie: userID=j%3A%2265281ae2d5331300147a50e8%22; Path=/
+Set-Cookie: firstName=Donny; Path=/
 Content-Type: application/json; charset=utf-8
-Content-Length: 291
-Etag: W/"123-WLV0feNxe9wQySpNscPz9R+DROI"
-Date: Sun, 30 Jul 2023 13:37:23 GMT
+Content-Length: 278
+Etag: W/"116-A+kzph8qr9L0xa2q+7jb6+zJyQQ"
+Date: Thu, 12 Oct 2023 16:12:18 GMT
 Via: 1.1 vegur
 
 {
-    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0YzY2NzkzN2Y2YWFjMDAxNGQ5MWQ0NCIsImZpcnN0TmFtZSI6IklsdW1pbmFkYSIsImxhc3ROYW1lIjoiTW9yaXNzZXR0ZSIsImlhdCI6MTY5MDcyNDI0M30.25XBN07GUdpDklFnWpn06zSb4i3Pbp_FICeXMldbuP4",
-    "userID": "64c667937f6aac0014d91d44",
-    "firstName": "Iluminada"
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1MjgxYWUyZDUzMzEzMDAxNDdhNTBlOCIsImZpcnN0TmFtZSI6IkRvbm55IiwibGFzdE5hbWUiOiJPc2luc2tpIiwiaWF0IjoxNjk3MTI3MTM4fQ.5CyAeiLipSTt7eTggpsncCIbL6FCDd6TddUFwrBXyBM",
+    "userID": "65281ae2d5331300147a50e8",
+    "firstName": "Donny"
 }
 HTTP/1.1 201 Created
 Server: Cowboy
@@ -172,19 +189,25 @@ X-Powered-By: Express
 Access-Control-Allow-Origin: *
 Content-Type: application/json; charset=utf-8
 Content-Length: 161
-Etag: W/"a1-lWjlgd0g5swQXzlPR8P4TZCJPhI"
-Date: Sun, 30 Jul 2023 13:37:24 GMT
+Etag: W/"a1-EDCPc0tFr/GspcND/vFIkzJ6zAg"
+Date: Thu, 12 Oct 2023 16:12:19 GMT
 Via: 1.1 vegur
 
 {
     "isCompleted": false,
-    "_id": "64c667947f6aac0014d91d48",
+    "_id": "65281ae3d5331300147a50ec",
     "item": "Learn Selenium",
-    "userID": "64c667937f6aac0014d91d44",
-    "createdAt": "2023-07-30T13:37:24.829Z",
+    "userID": "65281ae2d5331300147a50ea",
+    "createdAt": "2023-10-12T16:12:19.771Z",
     "__v": 0
 }
 ]]></system-out>
+    <system-err><![CDATA[1697127138303	Marionette	INFO	Stopped listening on port 58828
+Dynamically enable window occlusion 1
+]]></system-err>
   </testcase>
-  <testcase name="shouldBeAbleToDeleteTodo" classname="com.qacart.todo.testcases.TodoTest" time="5.277"/>
+  <testcase name="shouldBeAbleToDeleteTodo" classname="com.qacart.todo.testcases.TodoTest" time="4.805">
+    <system-err><![CDATA[1697127141070	Marionette	INFO	Stopped listening on port 58829
+]]></system-err>
+  </testcase>
 </testsuite>
